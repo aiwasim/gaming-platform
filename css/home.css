@@ -1,0 +1,99 @@
+/* global css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 30px 0px;
+}
+
+.custom-btn {
+    background-color: #FA9021;
+    border: none;
+    padding: 9px 35px;
+    font-size: 12px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+
+
+/* navbar style start */
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 0px 40px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* navbar style end */
+/* banner style start */
+
+.banner .banner-content h6 {
+    color: #E87D0E;
+}
+
+.banner .banner-content h1 {
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.banner .banner-content p {
+    font-size: 14px;
+}
+
+.banner .banner-img {
+    margin-top: -100px;
+}
+
+/* banner style end */
+/* Currently Trending Games style start */
+
+.trending {
+    background: #0c0700;
+}
+
+.trending .trending-btn {
+    background: #393022;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Currently Trending Games style end */
+/* slider style start */
+
+.slider {
+    background: #181106;
+}
+
+.slider .slider-content {
+    font-size: 14px;
+}
+
+/* slider style end */
+/* development style start */
+
+.development {
+    background: url(../img/home-page/Rectangle\ 5.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* development style end */
